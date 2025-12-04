@@ -1,0 +1,18 @@
+<!DOCTYPE html><html xmlns:th="http://www.thymeleaf.org"><head><meta charset="UTF-8"><title>Roles</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"></head>
+    <body><div class="container mt-4">
+            <h3>Roles</h3>
+            <a class="btn btn-success mb-2" th:href="@{/admin/roles/new}">Nuevo Rol</a>
+            <table class="table"><thead><tr><th>ID</th><th>Nombre</th><th>Acciones</th></tr></thead>
+                <tbody><tr th:each="r : ${roles}">
+                        <td th:text="${r.id}"></td>
+                        <td th:text="${r.nombre}"></td>
+                        <td>
+                            <a th:href="@{|/admin/roles/edit/${r.id}|}" class="btn btn-sm btn-primary">Editar</a>
+                            <form th:action="@{|/admin/roles/delete/${r.id}|}" method="post" style="display:inline">
+                                <button class="btn btn-sm btn-danger" onclick="return confirm('Eliminar?')">Eliminar</button>
+                            </form>
+                        </td>
+                    </tr></tbody>
+            </table>
+        </div></body></html>

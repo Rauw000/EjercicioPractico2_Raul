@@ -1,0 +1,16 @@
+com\ejercicioPractico2\plataformaAcademica\Repository\RoleRepository.class
+com\ejercicioPractico2\plataformaAcademica\Controller\ProfileController.class
+com\ejercicioPractico2\plataformaAcademica\Controller\AuthController.class
+com\ejercicioPractico2\plataformaAcademica\Controller\HomeController.class
+com\ejercicioPractico2\plataformaAcademica\Controller\AdminUserController.class
+com\ejercicioPractico2\plataformaAcademica\Repository\UserRepository.class
+com\ejercicioPractico2\plataformaAcademica\Controller\AdminRoleController.class
+com\ejercicioPractico2\plataformaAcademica\Domain\User.class
+com\ejercicioPractico2\plataformaAcademica\Domain\Role.class
+com\ejercicioPractico2\plataformaAcademica\PlataformaAcademicaApplication.class
+com\ejercicioPractico2\plataformaAcademica\Service\CustomUserDetailsService.class
+com\ejercicioPractico2\plataformaAcademica\Service\UserService.class
+com\ejercicioPractico2\plataformaAcademica\Service\RoleService.class
+com\ejercicioPractico2\plataformaAcademica\ProjectConfig\DataLoader.class
+com\ejercicioPractico2\plataformaAcademica\ProjectConfig\SecurityConfig.class
+com\ejercicioPractico2\plataformaAcademica\Controller\ReportesController.class
